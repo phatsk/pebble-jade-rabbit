@@ -1,26 +1,36 @@
 {
-  "uuid": "27708e52-59b2-4864-bff3-097228a18ce6",
-  "shortName": "jade-rabbit",
-  "longName": "jade-rabbit",
-  "companyName": "380c1",
-  "versionLabel": "1.0",
-  "sdkVersion": "3",
-  "targetPlatforms": ["aplite", "basalt"],
-  "watchapp": {
-    "watchface": true
-  },
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": [{
-		"type": "png",
-		"name": "IMAGE_JADE_RABBIT_NO_TEXT_LIGHT",
-		"file": "images/jade_rabbit_bg_no_text_light.png"
-	},{
-		"type": "png",
-		"name": "IMAGE_JADE_RABBIT_NO_TEXT_DARK",
-		"file": "images/jade_rabbit_bg_no_text_dark.png"
-	}]
-  }
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "380c1",
+    "longName": "jade-rabbit",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/jade_rabbit_bg_no_text_light.png",
+                "name": "IMAGE_JADE_RABBIT_NO_TEXT_LIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/jade_rabbit_bg_no_text_dark.png",
+                "name": "IMAGE_JADE_RABBIT_NO_TEXT_DARK",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "jade-rabbit",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "27708e52-59b2-4864-bff3-097228a18ce6",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
 }
