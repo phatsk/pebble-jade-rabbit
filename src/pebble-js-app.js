@@ -4,7 +4,7 @@ Pebble.addEventListener('ready', function() {
 
 function initHooks() {
 	Pebble.addEventListener('showConfiguration', function(e) {
-		Pebble.openURL('destiny-phatsk.rhcloud.com/jade-rabbit.php');
+		Pebble.openURL('http://destiny-phatsk.rhcloud.com/jade-rabbit.php');
 	});
 
 	Pebble.addEventListener('webviewclosed', function(e) {
